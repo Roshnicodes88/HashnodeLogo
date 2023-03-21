@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.logo{
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(0, 17, 255, 0.927);
+    background: rgb(68, 0, 255);
+    border-radius: 100px;
+    rotate: 30deg;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    animation: logo ;
+}
